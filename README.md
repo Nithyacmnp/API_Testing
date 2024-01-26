@@ -1,6 +1,6 @@
 # API_Testing
 
-bootcamp_project
+This project has api testing methods executed on site "https://reqres.in/" for learning purpose.
 ﻿
 
 GET
@@ -43,25 +43,7 @@ update user with PUT
 https://reqres.in/api/users/2
 ﻿
 
-Body
-raw (json)
-json
-{
-    "name": "abc",
-    "job": "engg"
-}
-PATCH
-update user with PATCH
-https://reqres.in/api/users/2
-﻿
 
-Body
-raw (json)
-json
-{
-    "name": "morpheus",
-    "job": "tester"
-}
 DELETE
 delete user
 https://reqres.in/api/users/2
@@ -79,17 +61,7 @@ json
     "email": "eve.holt@reqres.in",
     "password": "pinpong"
 }
-POST
-register unsucceful
-https://reqres.in/api/register
-﻿
 
-Body
-raw (json)
-json
-{
-    "email": "sydney@fife"
-}
 POST
 login successful
 https://reqres.in/api/login
